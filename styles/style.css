@@ -43,7 +43,7 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     padding-top: 69px;
 }
 
@@ -244,4 +244,84 @@ header {
     width: 200%;
     position: relative;
     left: -270px;
+}
+
+/* BMI Calculator */
+.bmi-section {
+    background-color: rgba(128, 128, 128, 0.274);
+    /* padding: 49px 0; */
+    /* padding-bottom: 50px; */
+    margin-bottom: 100px;
+}
+
+.bmi-main-contenar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+    padding: 49px 0;
+
+
+}
+
+.bmi-cal-header {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.bmi-header-title {
+    font-size: 4rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+th {
+    border: 1px solid rgba(128, 128, 128, 0.555);
+    padding: 9px 17px;
+}
+
+table td {
+    color: gray;
+}
+
+.bmi-cal input,
+select {
+    background: transparent;
+    padding: 16px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+    background-color: rgba(128, 128, 128, 0.432);
+}
+
+
+select {
+    color: gray;
+}
+
+.bmi-cal-contenar {
+    max-width: 50%;
+}
+
+.bmi-cal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.grid-col {
+    grid-column: span 2;
+}
+
+.bmi-calclutor-header h1 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+}
+
+.bmi-calclutor-header p {
+    margin-bottom: 34px;
 }

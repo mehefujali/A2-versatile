@@ -138,4 +138,36 @@
         position: static;
     }
 
+    /* BMI  */
+    .bmi-main-contenar {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bmi-cal input,
+    select {
+        padding: 10px 0px;
+        width: 100%;
+
+        /* width: 40%; */
+    }
+
+    .bmi-header-title {
+        font-size: 2rem;
+
+    }
+
+    .bmi-cal-contenar {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .bmi-cal-header {
+        max-width: 90%;
+    }
+
+    .bmi-cal {
+        gap: 15px;
+
+    }
 }
