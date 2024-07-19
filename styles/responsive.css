@@ -40,6 +40,7 @@
 
     }
 
+
     .join-btn {
         padding: 12px 24px;
         font-size: 18px;
@@ -54,12 +55,34 @@
         text-wrap: nowrap;
     }
 
+    .hero-img-part {
+        max-width: 90%;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
     .blur-1 {
         left: -30px;
+        padding: 20px 15px;
     }
 
     .blur-2 {
         right: -30px;
-        padding: 15px 20px;
+        padding: 20px 15px;
+    }
+
+    .blur-2 p {
+        font-size: 14px;
+    }
+
+    .video-count {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .video-count-workout {
+        font-size: 24px;
     }
 }
