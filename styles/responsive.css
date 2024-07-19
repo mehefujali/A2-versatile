@@ -112,6 +112,7 @@
     .run-section {
         flex-direction: column;
         gap: 31px;
+        max-width: 65%;
     }
 
     .run-text-part {
@@ -119,8 +120,22 @@
 
     }
 
+    .run-title {
+        font-size: 2rem;
+    }
+
     .run-btn {
         width: 100%;
+    }
+
+    .run-img-part {
+        max-width: 350px;
+        max-height: 170px;
+    }
+
+    .run-img-part img {
+        width: 100%;
+        position: static;
     }
 
 }

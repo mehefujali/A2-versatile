@@ -6,7 +6,9 @@
     color: white;
 }
 
-
+button {
+    cursor: pointer;
+}
 
 body {
     background-color: black;
@@ -212,6 +214,9 @@ header {
     display: flex;
     margin: 100px auto;
     justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 54px 41px;
+    border-radius: 16px;
 
 }
 
