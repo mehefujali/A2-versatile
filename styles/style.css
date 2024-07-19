@@ -168,3 +168,42 @@ header {
     font-size: 2rem;
 
 }
+
+
+/* Change Your Habits  */
+.change-habits-cont {
+    margin-top: 176px;
+}
+
+.habit-title {
+    font-size: 3rem;
+    margin-bottom: 14px;
+
+}
+
+.change-habits-header {
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* habit cards  */
+.change-habit-card-contenar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.change-habit-card {
+    max-width: 241px;
+    text-align: center;
+}
+
+.habit-card-img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.habit-card-title {
+    margin-bottom: 16px;
+}
