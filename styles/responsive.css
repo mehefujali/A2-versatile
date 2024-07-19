@@ -1,0 +1,65 @@
+@media screen and (max-width:576px) {
+    .contenar {
+        max-width: 90%;
+    }
+
+    /* nav bar  */
+
+    .fa-bars {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .brand {
+        font-size: 3rem;
+    }
+
+    /* Hero  */
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-text-part {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-btn-part {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .join-btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        text-wrap: nowrap;
+
+    }
+
+    .download-btn {
+        padding: 10px 22px;
+        border: 2px solid white;
+        font-size: 16px;
+        text-wrap: nowrap;
+    }
+
+    .blur-1 {
+        left: -30px;
+    }
+
+    .blur-2 {
+        right: -30px;
+        padding: 15px 20px;
+    }
+}
