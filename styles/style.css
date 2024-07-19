@@ -123,9 +123,7 @@ header {
 
 
 /* Img part  */
-.hero-img {
-    /* position: relative; */
-}
+
 
 .blur-1 {
     display: flex;
@@ -206,4 +204,39 @@ header {
 
 .habit-card-title {
     margin-bottom: 16px;
+}
+
+
+
+.run-section {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+
+}
+
+.run-title {
+    font-size: 3rem;
+}
+
+.run-text-part {
+    max-width: 40%;
+    align-items: center;
+}
+
+.run-text-part p {
+    margin: 50px 0;
+}
+
+.run-img-part {
+    max-width: 360px;
+    max-height: 310px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.run-img-part img {
+    width: 200%;
+    position: relative;
+    left: -270px;
 }

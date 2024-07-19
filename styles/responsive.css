@@ -107,4 +107,20 @@
         gap: 30px;
     }
 
+    /* Run an Extra Mile Easily  */
+
+    .run-section {
+        flex-direction: column;
+        gap: 31px;
+    }
+
+    .run-text-part {
+        max-width: 100%;
+
+    }
+
+    .run-btn {
+        width: 100%;
+    }
+
 }
