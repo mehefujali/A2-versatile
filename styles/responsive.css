@@ -8,6 +8,11 @@
     .fa-bars {
         display: block;
         font-size: 2rem;
+
+    }
+
+    .nav-bar {
+        align-items: center;
     }
 
     .nav-items {
@@ -146,7 +151,7 @@
 
     .bmi-cal input,
     select {
-        padding: 10px 0px;
+        padding: 14px 0px;
         width: 100%;
 
         /* width: 40%; */
