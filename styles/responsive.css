@@ -189,4 +189,9 @@
         width: 95%;
         height: 240px;
     }
+
+    /* Footer  */
+    .footer-contenar {
+        flex-direction: column;
+    }
 }

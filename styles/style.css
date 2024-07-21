@@ -372,3 +372,51 @@ select {
     bottom: 5px;
     left: 15px;
 }
+
+/* Footer  */
+footer {
+    margin-top: 108px;
+    background-color: rgba(128, 128, 128, 0.295);
+    padding: 66px 0;
+}
+
+.footer-contenar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contenar a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer-brand-info {
+    max-width: 443px;
+}
+
+.footer-contenar h3 {
+    margin-bottom: 39px;
+}
+
+.footer-contenar p {
+    margin-bottom: 20px;
+}
+
+.f-brand {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.footer-hr {
+    filter: opacity(.4);
+    margin-top: 79px;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
