@@ -175,4 +175,18 @@
         gap: 15px;
 
     }
+
+    /* trenner  */
+    .mit-our-tim-header {
+        max-width: 90%;
+    }
+
+    .our-tim-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trainer {
+        width: 95%;
+        height: 240px;
+    }
 }
