@@ -439,7 +439,7 @@ footer {
     padding: 40px;
     border-radius: 14px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .daily-card {
@@ -448,7 +448,7 @@ footer {
     border: 2px solid rgba(128, 128, 128, 0.062);
     padding: 15px;
     border-radius: 15px;
-    text-align: justify;
+    /* text-align: justify; */
     transition: .25s;
 
     &:hover {
