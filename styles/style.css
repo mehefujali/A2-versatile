@@ -439,7 +439,7 @@ footer {
     padding: 40px;
     border-radius: 14px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .daily-card {
