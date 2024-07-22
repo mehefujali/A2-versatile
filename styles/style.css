@@ -174,6 +174,7 @@ header {
 /* Change Your Habits  */
 .change-habits-cont {
     margin-top: 176px;
+    margin-bottom: 176px;
 }
 
 .habit-title {
@@ -365,6 +366,7 @@ select {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    filter: brightness(.60);
 }
 
 .trainer-des {
@@ -419,4 +421,55 @@ footer {
     text-align: center;
     color: gray;
     margin-top: 20px;
+}
+
+.daily-sec-header {
+    text-align: center;
+}
+
+.daily-sec-header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.daily-sec-card-contener {
+    margin-top: 50px;
+    background-color: rgba(169, 169, 169, 0.123);
+    padding: 40px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.daily-card {
+    max-width: 350px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(128, 128, 128, 0.062);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: justify;
+    transition: .25s;
+
+    &:hover {
+        box-shadow: 0 0px 10px rgba(255, 255, 255, 0.178);
+    }
+}
+
+.daily-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.daily-card-title {
+    margin: 16px 0;
+    color: rgb(255, 255, 255);
+}
+
+.daily-card-spa {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+.daily-des {
+    margin-bottom: 10px;
 }
