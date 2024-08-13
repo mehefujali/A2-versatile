@@ -207,4 +207,8 @@
         padding: 20px;
     }
 
+    .daily-card {
+        max-width: 90%;
+    }
+
 }
