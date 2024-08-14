@@ -209,6 +209,25 @@
 
     .daily-card {
         max-width: 90%;
+        flex-direction: column;
+        top: 0px;
+    }
+
+    .daily-card img {
+        width: 100%;
+    }
+
+    .daily-card-des {
+        max-width: 95%;
+    }
+
+    .daily-card-title {
+        font-size: 20px;
+    }
+
+    .daily-des,
+    .daily-li {
+        font-size: 16px;
     }
 
 }

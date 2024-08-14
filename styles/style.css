@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+IE:wght@100..400&display=swap');
 
+
+
 * {
     margin: 0;
     font-family: "Inter";
@@ -445,12 +447,17 @@ footer {
     padding: 40px;
     border-radius: 14px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .daily-card {
-    max-width: 27%;
-    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+
+
+    backdrop-filter: blur(50px);
     border: 2px solid rgba(128, 128, 128, 0.062);
     padding: 15px;
     border-radius: 15px;
@@ -459,17 +466,29 @@ footer {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
         -1px -1px 6px rgba(255, 255, 255, 0.4);
 
+    /* box-shadow: -2px -2px rgb(230, 83, 60); */
+
+    position: sticky;
+    top: 50px;
+
 
 }
 
 .daily-card img {
-    width: 100%;
+    width: 300px;
     border-radius: 10px;
 }
 
 .daily-card-title {
+    font-size: 2rem;
     margin: 16px 0;
     color: rgb(255, 255, 255);
+
+}
+
+.daily-card-des {
+    max-width: 60%;
+
 }
 
 .daily-card-spa {
@@ -478,4 +497,9 @@ footer {
 
 .daily-des {
     margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.daily-li {
+    font-size: 20px;
 }
